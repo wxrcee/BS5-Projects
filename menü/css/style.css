@@ -1,0 +1,31 @@
+/* Base style for main.html */
+
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+}
+
+.myimg {
+    width: 500px;
+    height: 250px;
+    margin: auto;
+}
+
+.flag-link {
+  position: fixed;   /* Fix pozíció a képernyőhöz képest */
+  bottom: 20px;      /* 20 pixelre az aljától */
+  right: 20px;        /* 20 pixelre a bal szélétől */
+  z-index: 1000;     /* Hogy minden más felett látszódjon */
+}
+
+.flag {
+  width: 50px;       /* Opcionális: a zászló méretének beállítása */
+  height: auto;
+  border-radius: 4px; /* Opcionális: lekerekített sarkok */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Opcionális: kis árnyék */
+}
